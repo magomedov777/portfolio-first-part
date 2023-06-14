@@ -1,7 +1,10 @@
 import React from 'react';
 import s from './Skill.module.css';
 
-
+type PropsType = {
+    title: string
+    description: string
+}
 
 export const Skill = (props: PropsType) => {
   return (
