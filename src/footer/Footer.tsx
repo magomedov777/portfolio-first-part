@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className={st.footerBlock}>
             <div className={`${stContainer.container} ${st.container}`}>
-                <h3>INFORMATION</h3>
+                <h3>INFO</h3>
                 <div className={st.mainFrame}></div>
                 <span>2023</span>
             </div>
