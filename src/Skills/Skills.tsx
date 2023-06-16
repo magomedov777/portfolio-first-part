@@ -1,19 +1,23 @@
 import React from 'react';
-import s from '../Skills/Skills.module.css';
-import st from '../common/styles/Container.module.css'
-import { Skill } from './skill/Skill';
+import st from './Skills.module.css';
+import stContainer from '../common/styles/Container.module.css';
+import { Skill } from "./skill/Skill";
 
 export const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
-            <div className={`${st.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
-                <div className={s.skills}>
-                    <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius'} />
-                    <Skill title={'CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'} />
-                    <Skill title={'React'} description={'Lorem tempor incididunt ut labore et dolore magna aliqua. Ut enim'} />
+        <div className={st.skillsBlok}>
+            <div className={`${stContainer.container} ${st.titleAndSkills}`}>
+                <h2 className={st.title}>lorem ipsum</h2>
+                <div className={st.skills}>
+                    <Skill text={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'}
+                        name={'Lorem Ipsum'} />
+                    <Skill text={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'}
+                        name={'Lorem Ipsum'} />
+                    <Skill text={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'}
+                        name={'Lorem Ipsum'} />
                 </div>
             </div>
+
         </div>
     )
 }

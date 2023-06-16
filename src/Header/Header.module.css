@@ -1,10 +1,14 @@
-.mainHeader{
+.mainFrame {
     height: 80px;
-    background-color: aquamarine;
+    background-color: #5350ff;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
-
-

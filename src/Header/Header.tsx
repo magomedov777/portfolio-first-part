@@ -1,11 +1,16 @@
 import React from 'react';
-import s from './Header.module.css';
-import { Navbar } from '../Navbar/Navbar';
+import st from './Header.module.css';
+import { Nav } from "../navigator/Navigator";
+
+
 
 export const Header = () => {
     return (
-        <div className={s.mainHeader}>
-            <Navbar/>
+
+        <div className={st.mainFrame}>
+            <div className={st.container}>
+                <Nav />
+            </div>
         </div>
     )
 }

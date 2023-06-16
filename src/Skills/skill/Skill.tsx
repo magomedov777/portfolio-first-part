@@ -1,17 +1,19 @@
 import React from 'react';
-import s from './Skill.module.css';
+import st from './Skill.module.css';
 
-type PropsType = {
-    title: string
-    description: string
+type SkillType={
+    name:string
+    text:string
 }
 
-export const Skill = (props: PropsType) => {
-  return (
-    <div className={s.skill}>
-        <div className={s.icon}></div>
-        <h3>{props.title}</h3>
-        <span className={s.description}>{props.description}</span>
-    </div>
-  )
+export const Skill = (props:SkillType) => {
+    return (
+        <div className={st.frame}>
+            <div className={st.icone}></div>
+            <h3>{props.name}</h3>
+            <span>{props.text}</span>
+
+
+        </div>
+    )
 }
