@@ -1,18 +1,17 @@
-.footerBlock {
+.footerBlok{
     height: 160px;
-    background-color: #5350ff;
+    background-color: #dbcbcb;
 }
-
-.container {
-    display: flex;
+.container{
+  display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.mainFrame {
+.centerFrame{
     width: 260px;
     height: 40px;
-    background-color: #5350ff;
+    background-color: #f4d884;
 
 }

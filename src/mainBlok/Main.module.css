@@ -1,6 +1,6 @@
-.mainBlock {
+.mainBlok {
     height: 100vh;
-    background-color: #8cd65a;
+    background-color: #fce8c3;
 }
 
 .container {
@@ -12,12 +12,12 @@
 
 .name {
     width: 270px;
-    background-color: yellow;
-    color: black;
+    background-color: #e3c6c6;
+    color: #460c0c;
 }
 
-.photo {
+.foto {
     width: 250px;
     height: 350px;
-    background-color: rgb(77, 77, 231);
+    background-color: #e3c6c6;
 }

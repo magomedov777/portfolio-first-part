@@ -5,14 +5,14 @@ import stContainer from '../common/styles/Container.module.css';
 
 export const Main = () => {
     return (
-        <div className={st.mainBlock}>
+        <div className={st.mainBlok}>
             <div className={`${stContainer.container} ${st.container}`}>
-                <div className={st.name}>
-                    <span>Hello</span>
-                    <h1>I am John Doe</h1>
-                    <p>my work - Front End Development</p>
+            <div className={st.name}>
+                <span>Привет</span>
+                <h1>Я Павел Потапов</h1>
+                <p>моя работа это Frontend разработка </p>
                 </div>
-                <div className={st.photo}>photo</div>
+            <div className={st.foto}>моя фотка тут скоро будет</div>
             </div>
         </div>
     )

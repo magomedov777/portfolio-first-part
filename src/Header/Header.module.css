@@ -1,14 +1,15 @@
-.mainFrame {
+.generalFrame{
     height: 80px;
-    background-color: #5350ff;
+    background-color: #dbcbcb;
 }
 
-.container {
+.container{
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #aca5a5;
     height: 100%;
     width: 80%;
-    display: flex;
+display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+

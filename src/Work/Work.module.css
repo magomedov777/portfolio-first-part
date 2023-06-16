@@ -1,0 +1,18 @@
+.work{
+    width: 250px;
+    background-color: rgb(255, 183, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 65vh;
+    background-size:cover ;
+    background-position:center ;
+    background-color: rgb(199, 151, 245);
+}
+
+

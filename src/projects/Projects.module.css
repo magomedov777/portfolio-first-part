@@ -1,24 +1,24 @@
-.projectsTitleBlok {
+.projectsTitleBlok{
     min-height: 100vh;
-    background-color: rgb(27, 245, 245);
+    background-color: rgb(231, 233, 233);
 }
 
-.container {
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.title {
+.titleBlok{
     background-color: #d9d9dd;
     color: #460c0c;
 }
 
-.projects {
-    border: 1px solid black;
+.projectsBlok{
+    border: 1px solid #aca5a5;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #3535fd;
+    background-color: #eaeaed;
     flex-wrap: wrap;
 }

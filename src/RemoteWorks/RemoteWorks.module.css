@@ -1,0 +1,16 @@
+.remoteWorksInfo{
+    height: 50vh;
+    background-color: rgb(48, 250, 250);
+}
+
+.remoteWorksInfoContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: gray;
+    top: 50px;
+    font-size: 30px;
+    color: black;
+}
