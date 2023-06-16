@@ -4,11 +4,11 @@ import st from './footer.module.css'
 
 export const Footer = () => {
     return (
-        <div className={st.footerBlok}>
+        <div className={st.footerBlock}>
             <div className={`${stContainer.container} ${st.container}`}>
-<h3>приходите еще какнибудь</h3>
-                <div className={st.centerFrame}></div>
-                <span>создано в перерывах сериала</span>
+                <h3>INFORMATION</h3>
+                <div className={st.mainFrame}></div>
+                <span>2023</span>
             </div>
         </div>
     )
